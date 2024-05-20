@@ -1,0 +1,9 @@
+numpy
+pandas
+torch
+transformers
+wandb
+Pillow
+requests
+matplotlib
+torchmetrics
