@@ -15,12 +15,12 @@ text_decode_model = "GPT2"
 output_dir = "./model_output_ENG"
 final_save = "./final_model_beit_gpt"
 coco_dir = "/home/misha/Desktop/education/2_semester/DL_course/nn_project/img2text/data/val2017/"
-path_annot_train = "/home/misha/Desktop/education/2_semester/DL_course/nn_project/img2text/data/annotations_trainval2017/annotations/captions_val2017.json"
+path_annot_train = "/home/misha/Desktop/education/2_semester/DL_course/nn_project/img2text/data/annotations_trainval2017/annotations/captions_train2017.json"
 path_annot_val = "/home/misha/Desktop/education/2_semester/DL_course/nn_project/img2text/data/annotations_trainval2017/annotations/captions_val2017.json"
 
 
 class ModelUpdate:
-    max_length=5
+    max_length=32
     early_stopping=True
     no_repeat_ngram_size=3
     length_penalty=2
