@@ -1,6 +1,6 @@
 # Image-to-Text Generation with VisionEncoderDecoderModel
 
-This project demonstrates how to use a VisionEncoderDecoderModel for image-to-text generation, specifically using the BEiT model as the image encoder and GPT-2 as the text decoder. 
+This project aims to train the VisionEncoderDecoderModel for image-to-text generation, specifically using the BEiT model as the image encoder and GPT-2 as the text decoder. 
 
 ## Project Structure
 
