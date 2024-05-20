@@ -8,6 +8,8 @@ This project aims to train the VisionEncoderDecoderModel for image-to-text gener
 project/
 │
 ├── src/
+│   ├── beit-model.ipynb
+├── src/
 │   ├── __init__.py
 │   ├── config.py
 │   ├── dataset.py
@@ -20,6 +22,7 @@ project/
 └── requirements.txt
 ```
 Files and Directories
+*    src/beit-model.ipynb: Notebook for experiments
 *    src/config.py: Configuration settings for the project.
 *    src/dataset.py: Dataset and data collator definitions.
 *    src/model.py: Model setup and configuration.
